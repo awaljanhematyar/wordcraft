@@ -1,0 +1,666 @@
+{
+  "browser": "Chrome cloud browser",
+  "method": "Same-origin application frames at 320, 375, 390, 768, 1024 and 1440 CSS pixels. Each frame height is 1100 pixels. Checks use actual rendered document/dialog clientWidth and scrollWidth.",
+  "records": [
+    {
+      "viewport": 320,
+      "theme": "light",
+      "state": "board",
+      "clientWidth": 305,
+      "scrollWidth": 305,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "state": "board",
+      "clientWidth": 360,
+      "scrollWidth": 360,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "state": "board",
+      "clientWidth": 375,
+      "scrollWidth": 375,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "state": "board",
+      "clientWidth": 753,
+      "scrollWidth": 753,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "state": "board",
+      "clientWidth": 1009,
+      "scrollWidth": 1009,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "state": "board",
+      "clientWidth": 1425,
+      "scrollWidth": 1425,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "light",
+      "state": "statistics",
+      "left": 19,
+      "open": true,
+      "right": 286,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "state": "statistics",
+      "left": 19,
+      "open": true,
+      "right": 341,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "state": "statistics",
+      "left": 19,
+      "open": true,
+      "right": 356,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "state": "statistics",
+      "left": 146.5,
+      "open": true,
+      "right": 606.5,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "state": "statistics",
+      "left": 274.5,
+      "open": true,
+      "right": 734.5,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "state": "statistics",
+      "left": 482.5,
+      "open": true,
+      "right": 942.5,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "light",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "light",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "light",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "light",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "light",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "light",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "light",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "light",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "light",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "dark",
+      "state": "board",
+      "scrollWidth": 305,
+      "width": 305,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "dark",
+      "state": "board",
+      "scrollWidth": 360,
+      "width": 360,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "state": "board",
+      "scrollWidth": 375,
+      "width": 375,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "dark",
+      "state": "board",
+      "scrollWidth": 753,
+      "width": 753,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "state": "board",
+      "scrollWidth": 1009,
+      "width": 1009,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "state": "board",
+      "scrollWidth": 1425,
+      "width": 1425,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "dark",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "dark",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "dark",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "state": "help",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "dark",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "dark",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "dark",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "state": "settings",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "dark",
+      "state": "statistics",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "dark",
+      "state": "statistics",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "state": "statistics",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "dark",
+      "state": "statistics",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "state": "statistics",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "state": "statistics",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "dark",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 320,
+      "theme": "dark",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 265,
+      "width": 265,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "dark",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 375,
+      "theme": "dark",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 320,
+      "width": 320,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 390,
+      "theme": "dark",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 335,
+      "width": 335,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "dark",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 768,
+      "theme": "dark",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1024,
+      "theme": "dark",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "state": "results",
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    },
+    {
+      "viewport": 1440,
+      "theme": "dark",
+      "state": "manual-copy",
+      "manual": true,
+      "open": true,
+      "scrollWidth": 458,
+      "width": 458,
+      "pass": true
+    }
+  ]
+}

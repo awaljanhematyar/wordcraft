@@ -1,0 +1,560 @@
+{
+  "baseline": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 768,
+      "height": 900,
+      "devicePixelRatio": 1
+    },
+    "navigation": {
+      "durationMs": 193.19999999995343,
+      "domContentLoadedMs": 177.59999999997672,
+      "loadMs": 193.19999999995343,
+      "responseEndMs": 22.29999999993015,
+      "transferSize": 10732
+    },
+    "paints": [
+      {
+        "name": "first-paint",
+        "startTimeMs": 116
+      },
+      {
+        "name": "first-contentful-paint",
+        "startTimeMs": 116
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://terminal.local:4173/css/style.css",
+        "durationMs": 11.199999999953434,
+        "transferSize": 12673,
+        "encodedBodySize": 12373,
+        "decodedBodySize": 12373
+      },
+      {
+        "name": "http://terminal.local:4173/js/main.js",
+        "durationMs": 11.5,
+        "transferSize": 9632,
+        "encodedBodySize": 9332,
+        "decodedBodySize": 9332
+      },
+      {
+        "name": "http://terminal.local:4173/js/ui.js",
+        "durationMs": 24.20000000006985,
+        "transferSize": 15868,
+        "encodedBodySize": 15568,
+        "decodedBodySize": 15568
+      },
+      {
+        "name": "http://terminal.local:4173/js/game.js",
+        "durationMs": 28.100000000093132,
+        "transferSize": 4209,
+        "encodedBodySize": 3909,
+        "decodedBodySize": 3909
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily.js",
+        "durationMs": 24.199999999953434,
+        "transferSize": 1823,
+        "encodedBodySize": 1523,
+        "decodedBodySize": 1523
+      },
+      {
+        "name": "http://terminal.local:4173/js/unlimited.js",
+        "durationMs": 27.699999999953434,
+        "transferSize": 2069,
+        "encodedBodySize": 1769,
+        "decodedBodySize": 1769
+      },
+      {
+        "name": "http://terminal.local:4173/js/settings.js",
+        "durationMs": 27.79999999993015,
+        "transferSize": 3038,
+        "encodedBodySize": 2738,
+        "decodedBodySize": 2738
+      },
+      {
+        "name": "http://terminal.local:4173/js/statistics.js",
+        "durationMs": 27.699999999953434,
+        "transferSize": 2675,
+        "encodedBodySize": 2375,
+        "decodedBodySize": 2375
+      },
+      {
+        "name": "http://terminal.local:4173/js/storage.js",
+        "durationMs": 34.90000000002328,
+        "transferSize": 11348,
+        "encodedBodySize": 11048,
+        "decodedBodySize": 11048
+      },
+      {
+        "name": "http://terminal.local:4173/js/share.js",
+        "durationMs": 15.699999999953434,
+        "transferSize": 1714,
+        "encodedBodySize": 1414,
+        "decodedBodySize": 1414
+      },
+      {
+        "name": "http://terminal.local:4173/js/dialogs.js",
+        "durationMs": 16.599999999976717,
+        "transferSize": 2447,
+        "encodedBodySize": 2147,
+        "decodedBodySize": 2147
+      },
+      {
+        "name": "http://terminal.local:4173/js/interactions.js",
+        "durationMs": 16.599999999976717,
+        "transferSize": 3392,
+        "encodedBodySize": 3092,
+        "decodedBodySize": 3092
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily-answers-v1.js",
+        "durationMs": 17,
+        "transferSize": 5488,
+        "encodedBodySize": 5188,
+        "decodedBodySize": 5188
+      },
+      {
+        "name": "http://terminal.local:4173/js/words.js",
+        "durationMs": 19.899999999906868,
+        "transferSize": 77466,
+        "encodedBodySize": 77166,
+        "decodedBodySize": 77166
+      },
+      {
+        "name": "http://terminal.local:4173/js/hard-mode.js",
+        "durationMs": 19.699999999953434,
+        "transferSize": 4272,
+        "encodedBodySize": 3972,
+        "decodedBodySize": 3972
+      }
+    ],
+    "mutationRecordsSinceReset": 0,
+    "layoutShiftSumWithoutRecentInput": 0.35862841412129265,
+    "clsMaximumSessionWindow": 0.35862841412129265,
+    "appErrors": []
+  },
+  "baselineTyped": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 768,
+      "height": 900,
+      "devicePixelRatio": 1
+    },
+    "navigation": {
+      "durationMs": 193.19999999995343,
+      "domContentLoadedMs": 177.59999999997672,
+      "loadMs": 193.19999999995343,
+      "responseEndMs": 22.29999999993015,
+      "transferSize": 10732
+    },
+    "paints": [
+      {
+        "name": "first-paint",
+        "startTimeMs": 116
+      },
+      {
+        "name": "first-contentful-paint",
+        "startTimeMs": 116
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://terminal.local:4173/css/style.css",
+        "durationMs": 11.199999999953434,
+        "transferSize": 12673,
+        "encodedBodySize": 12373,
+        "decodedBodySize": 12373
+      },
+      {
+        "name": "http://terminal.local:4173/js/main.js",
+        "durationMs": 11.5,
+        "transferSize": 9632,
+        "encodedBodySize": 9332,
+        "decodedBodySize": 9332
+      },
+      {
+        "name": "http://terminal.local:4173/js/ui.js",
+        "durationMs": 24.20000000006985,
+        "transferSize": 15868,
+        "encodedBodySize": 15568,
+        "decodedBodySize": 15568
+      },
+      {
+        "name": "http://terminal.local:4173/js/game.js",
+        "durationMs": 28.100000000093132,
+        "transferSize": 4209,
+        "encodedBodySize": 3909,
+        "decodedBodySize": 3909
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily.js",
+        "durationMs": 24.199999999953434,
+        "transferSize": 1823,
+        "encodedBodySize": 1523,
+        "decodedBodySize": 1523
+      },
+      {
+        "name": "http://terminal.local:4173/js/unlimited.js",
+        "durationMs": 27.699999999953434,
+        "transferSize": 2069,
+        "encodedBodySize": 1769,
+        "decodedBodySize": 1769
+      },
+      {
+        "name": "http://terminal.local:4173/js/settings.js",
+        "durationMs": 27.79999999993015,
+        "transferSize": 3038,
+        "encodedBodySize": 2738,
+        "decodedBodySize": 2738
+      },
+      {
+        "name": "http://terminal.local:4173/js/statistics.js",
+        "durationMs": 27.699999999953434,
+        "transferSize": 2675,
+        "encodedBodySize": 2375,
+        "decodedBodySize": 2375
+      },
+      {
+        "name": "http://terminal.local:4173/js/storage.js",
+        "durationMs": 34.90000000002328,
+        "transferSize": 11348,
+        "encodedBodySize": 11048,
+        "decodedBodySize": 11048
+      },
+      {
+        "name": "http://terminal.local:4173/js/share.js",
+        "durationMs": 15.699999999953434,
+        "transferSize": 1714,
+        "encodedBodySize": 1414,
+        "decodedBodySize": 1414
+      },
+      {
+        "name": "http://terminal.local:4173/js/dialogs.js",
+        "durationMs": 16.599999999976717,
+        "transferSize": 2447,
+        "encodedBodySize": 2147,
+        "decodedBodySize": 2147
+      },
+      {
+        "name": "http://terminal.local:4173/js/interactions.js",
+        "durationMs": 16.599999999976717,
+        "transferSize": 3392,
+        "encodedBodySize": 3092,
+        "decodedBodySize": 3092
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily-answers-v1.js",
+        "durationMs": 17,
+        "transferSize": 5488,
+        "encodedBodySize": 5188,
+        "decodedBodySize": 5188
+      },
+      {
+        "name": "http://terminal.local:4173/js/words.js",
+        "durationMs": 19.899999999906868,
+        "transferSize": 77466,
+        "encodedBodySize": 77166,
+        "decodedBodySize": 77166
+      },
+      {
+        "name": "http://terminal.local:4173/js/hard-mode.js",
+        "durationMs": 19.699999999953434,
+        "transferSize": 4272,
+        "encodedBodySize": 3972,
+        "decodedBodySize": 3972
+      }
+    ],
+    "mutationRecordsSinceReset": 930,
+    "layoutShiftSumWithoutRecentInput": 0.35862841412129265,
+    "clsMaximumSessionWindow": 0.35862841412129265,
+    "appErrors": []
+  },
+  "optimized": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 768,
+      "height": 900,
+      "devicePixelRatio": 1
+    },
+    "navigation": {
+      "durationMs": 79.89999999990687,
+      "domContentLoadedMs": 76.69999999995343,
+      "loadMs": 79.89999999990687,
+      "responseEndMs": 19.199999999953434,
+      "transferSize": 300
+    },
+    "paints": [
+      {
+        "name": "first-paint",
+        "startTimeMs": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "startTimeMs": 68
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://terminal.local:4173/js/words.js",
+        "durationMs": 10.5,
+        "transferSize": 300,
+        "encodedBodySize": 77166,
+        "decodedBodySize": 77166
+      },
+      {
+        "name": "http://terminal.local:4173/css/style.css",
+        "durationMs": 7.5,
+        "transferSize": 300,
+        "encodedBodySize": 12545,
+        "decodedBodySize": 12545
+      },
+      {
+        "name": "http://terminal.local:4173/js/main.js",
+        "durationMs": 10.199999999953434,
+        "transferSize": 300,
+        "encodedBodySize": 9325,
+        "decodedBodySize": 9325
+      },
+      {
+        "name": "http://terminal.local:4173/js/ui.js",
+        "durationMs": 10.099999999860302,
+        "transferSize": 300,
+        "encodedBodySize": 16510,
+        "decodedBodySize": 16510
+      },
+      {
+        "name": "http://terminal.local:4173/js/game.js",
+        "durationMs": 10.100000000093132,
+        "transferSize": 300,
+        "encodedBodySize": 3909,
+        "decodedBodySize": 3909
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily.js",
+        "durationMs": 10.200000000186265,
+        "transferSize": 300,
+        "encodedBodySize": 1523,
+        "decodedBodySize": 1523
+      },
+      {
+        "name": "http://terminal.local:4173/js/unlimited.js",
+        "durationMs": 12.5,
+        "transferSize": 300,
+        "encodedBodySize": 1769,
+        "decodedBodySize": 1769
+      },
+      {
+        "name": "http://terminal.local:4173/js/settings.js",
+        "durationMs": 12.600000000093132,
+        "transferSize": 300,
+        "encodedBodySize": 2808,
+        "decodedBodySize": 2808
+      },
+      {
+        "name": "http://terminal.local:4173/js/statistics.js",
+        "durationMs": 13.899999999906868,
+        "transferSize": 300,
+        "encodedBodySize": 2375,
+        "decodedBodySize": 2375
+      },
+      {
+        "name": "http://terminal.local:4173/js/storage.js",
+        "durationMs": 12.699999999953434,
+        "transferSize": 300,
+        "encodedBodySize": 11041,
+        "decodedBodySize": 11041
+      },
+      {
+        "name": "http://terminal.local:4173/js/hard-mode.js",
+        "durationMs": 6.5,
+        "transferSize": 300,
+        "encodedBodySize": 3972,
+        "decodedBodySize": 3972
+      },
+      {
+        "name": "http://terminal.local:4173/js/dom.js",
+        "durationMs": 6.5,
+        "transferSize": 300,
+        "encodedBodySize": 517,
+        "decodedBodySize": 517
+      },
+      {
+        "name": "http://terminal.local:4173/js/share.js",
+        "durationMs": 6.600000000093132,
+        "transferSize": 300,
+        "encodedBodySize": 1414,
+        "decodedBodySize": 1414
+      },
+      {
+        "name": "http://terminal.local:4173/js/dialogs.js",
+        "durationMs": 6.699999999953434,
+        "transferSize": 300,
+        "encodedBodySize": 2405,
+        "decodedBodySize": 2405
+      },
+      {
+        "name": "http://terminal.local:4173/js/interactions.js",
+        "durationMs": 6.800000000046566,
+        "transferSize": 300,
+        "encodedBodySize": 3092,
+        "decodedBodySize": 3092
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily-answers-v1.js",
+        "durationMs": 8.599999999860302,
+        "transferSize": 300,
+        "encodedBodySize": 5188,
+        "decodedBodySize": 5188
+      }
+    ],
+    "mutationRecordsSinceReset": 0,
+    "layoutShiftSumWithoutRecentInput": 0,
+    "clsMaximumSessionWindow": 0,
+    "appErrors": []
+  },
+  "optimizedTyped": {
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "viewport": {
+      "width": 768,
+      "height": 900,
+      "devicePixelRatio": 1
+    },
+    "navigation": {
+      "durationMs": 79.89999999990687,
+      "domContentLoadedMs": 76.69999999995343,
+      "loadMs": 79.89999999990687,
+      "responseEndMs": 19.199999999953434,
+      "transferSize": 300
+    },
+    "paints": [
+      {
+        "name": "first-paint",
+        "startTimeMs": 68
+      },
+      {
+        "name": "first-contentful-paint",
+        "startTimeMs": 68
+      }
+    ],
+    "resources": [
+      {
+        "name": "http://terminal.local:4173/js/words.js",
+        "durationMs": 10.5,
+        "transferSize": 300,
+        "encodedBodySize": 77166,
+        "decodedBodySize": 77166
+      },
+      {
+        "name": "http://terminal.local:4173/css/style.css",
+        "durationMs": 7.5,
+        "transferSize": 300,
+        "encodedBodySize": 12545,
+        "decodedBodySize": 12545
+      },
+      {
+        "name": "http://terminal.local:4173/js/main.js",
+        "durationMs": 10.199999999953434,
+        "transferSize": 300,
+        "encodedBodySize": 9325,
+        "decodedBodySize": 9325
+      },
+      {
+        "name": "http://terminal.local:4173/js/ui.js",
+        "durationMs": 10.099999999860302,
+        "transferSize": 300,
+        "encodedBodySize": 16510,
+        "decodedBodySize": 16510
+      },
+      {
+        "name": "http://terminal.local:4173/js/game.js",
+        "durationMs": 10.100000000093132,
+        "transferSize": 300,
+        "encodedBodySize": 3909,
+        "decodedBodySize": 3909
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily.js",
+        "durationMs": 10.200000000186265,
+        "transferSize": 300,
+        "encodedBodySize": 1523,
+        "decodedBodySize": 1523
+      },
+      {
+        "name": "http://terminal.local:4173/js/unlimited.js",
+        "durationMs": 12.5,
+        "transferSize": 300,
+        "encodedBodySize": 1769,
+        "decodedBodySize": 1769
+      },
+      {
+        "name": "http://terminal.local:4173/js/settings.js",
+        "durationMs": 12.600000000093132,
+        "transferSize": 300,
+        "encodedBodySize": 2808,
+        "decodedBodySize": 2808
+      },
+      {
+        "name": "http://terminal.local:4173/js/statistics.js",
+        "durationMs": 13.899999999906868,
+        "transferSize": 300,
+        "encodedBodySize": 2375,
+        "decodedBodySize": 2375
+      },
+      {
+        "name": "http://terminal.local:4173/js/storage.js",
+        "durationMs": 12.699999999953434,
+        "transferSize": 300,
+        "encodedBodySize": 11041,
+        "decodedBodySize": 11041
+      },
+      {
+        "name": "http://terminal.local:4173/js/hard-mode.js",
+        "durationMs": 6.5,
+        "transferSize": 300,
+        "encodedBodySize": 3972,
+        "decodedBodySize": 3972
+      },
+      {
+        "name": "http://terminal.local:4173/js/dom.js",
+        "durationMs": 6.5,
+        "transferSize": 300,
+        "encodedBodySize": 517,
+        "decodedBodySize": 517
+      },
+      {
+        "name": "http://terminal.local:4173/js/share.js",
+        "durationMs": 6.600000000093132,
+        "transferSize": 300,
+        "encodedBodySize": 1414,
+        "decodedBodySize": 1414
+      },
+      {
+        "name": "http://terminal.local:4173/js/dialogs.js",
+        "durationMs": 6.699999999953434,
+        "transferSize": 300,
+        "encodedBodySize": 2405,
+        "decodedBodySize": 2405
+      },
+      {
+        "name": "http://terminal.local:4173/js/interactions.js",
+        "durationMs": 6.800000000046566,
+        "transferSize": 300,
+        "encodedBodySize": 3092,
+        "decodedBodySize": 3092
+      },
+      {
+        "name": "http://terminal.local:4173/js/daily-answers-v1.js",
+        "durationMs": 8.599999999860302,
+        "transferSize": 300,
+        "encodedBodySize": 5188,
+        "decodedBodySize": 5188
+      }
+    ],
+    "mutationRecordsSinceReset": 15,
+    "layoutShiftSumWithoutRecentInput": 0,
+    "clsMaximumSessionWindow": 0,
+    "appErrors": []
+  }
+}

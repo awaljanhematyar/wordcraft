@@ -1,0 +1,103 @@
+{
+  "sourceSizes": {
+    "index.html": {
+      "bytes": 9268,
+      "gzipBytesEstimate": 2942
+    },
+    "css/style.css": {
+      "bytes": 12545,
+      "gzipBytesEstimate": 3565
+    },
+    "js/daily-answers-v1.js": {
+      "bytes": 5188,
+      "gzipBytesEstimate": 2566
+    },
+    "js/daily.js": {
+      "bytes": 1523,
+      "gzipBytesEstimate": 781
+    },
+    "js/dialogs.js": {
+      "bytes": 2405,
+      "gzipBytesEstimate": 852
+    },
+    "js/dom.js": {
+      "bytes": 517,
+      "gzipBytesEstimate": 263
+    },
+    "js/game.js": {
+      "bytes": 3909,
+      "gzipBytesEstimate": 1474
+    },
+    "js/hard-mode.js": {
+      "bytes": 3972,
+      "gzipBytesEstimate": 1415
+    },
+    "js/interactions.js": {
+      "bytes": 3092,
+      "gzipBytesEstimate": 1192
+    },
+    "js/main.js": {
+      "bytes": 9325,
+      "gzipBytesEstimate": 3049
+    },
+    "js/settings.js": {
+      "bytes": 2808,
+      "gzipBytesEstimate": 1166
+    },
+    "js/share.js": {
+      "bytes": 1414,
+      "gzipBytesEstimate": 773
+    },
+    "js/statistics.js": {
+      "bytes": 2375,
+      "gzipBytesEstimate": 991
+    },
+    "js/storage.js": {
+      "bytes": 11041,
+      "gzipBytesEstimate": 3208
+    },
+    "js/ui.js": {
+      "bytes": 16510,
+      "gzipBytesEstimate": 4742
+    },
+    "js/unlimited.js": {
+      "bytes": 1769,
+      "gzipBytesEstimate": 855
+    },
+    "js/words.js": {
+      "bytes": 77166,
+      "gzipBytesEstimate": 33853
+    }
+  },
+  "totalProductionJavaScriptBytes": 143014,
+  "scan": {
+    "unsafeDOM": [],
+    "dynamicExecution": [],
+    "credentials": []
+  },
+  "phase4TestFilesUnchanged": [
+    "tests/audio.test.js",
+    "tests/daily.test.js",
+    "tests/game.test.js",
+    "tests/hard-mode.test.js",
+    "tests/interactions.test.js",
+    "tests/main.test.js",
+    "tests/settings.test.js",
+    "tests/share.test.js",
+    "tests/statistics.test.js",
+    "tests/storage.test.js",
+    "tests/ui.test.js",
+    "tests/unlimited.test.js",
+    "tests/words.test.js"
+  ],
+  "changedProductionFiles": [
+    "css/style.css",
+    "index.html",
+    "js/dialogs.js",
+    "js/main.js",
+    "js/settings.js",
+    "js/storage.js",
+    "js/ui.js"
+  ],
+  "note": "Pattern scan and manual review are not a formal security audit. Gzip estimates are not measured deployment transfer sizes."
+}

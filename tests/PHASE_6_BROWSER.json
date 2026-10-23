@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-23",
+  "method": "Real Chromium app in same-origin frames. Capture wrapper scales frame 70%; app CSS viewport is unchanged. Screenshots are unedited browser output; mobile raw viewport includes surrounding fixture background.",
+  "checks": [
+    {
+      "scenario": "desktop",
+      "measurement": {
+        "width": 1440,
+        "height": 1200,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyHeight": 1200,
+        "tiles": 30,
+        "keys": 28,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "scenario": "mobile",
+      "measurement": {
+        "width": 390,
+        "height": 1200,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1200,
+        "tiles": 30,
+        "keys": 28,
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36"
+      }
+    },
+    {
+      "scenario": "physical HELLO then immediate Enter",
+      "attempt": "Attempt 2 of 6",
+      "board": "H\nE\nL\nL\nO"
+    },
+    {
+      "scenario": "invalid word",
+      "attempt": "Attempt 2 of 6",
+      "announcement": ""
+    },
+    {
+      "scenario": "refresh in progress",
+      "board": "H\nE\nL\nL\nO\nC\nR"
+    },
+    {
+      "scenario": "sharing fallback",
+      "manualVisible": true,
+      "text": ""
+    },
+    {
+      "scenario": "mode preservation",
+      "board": "H\nE\nL\nL\nO\nC\nR"
+    },
+    {
+      "scenario": "separate unlimited statistics",
+      "text": "SMALL WINS ADD UP\n×\nYour word story.\nDaily\nUnlimited\n\nUnlimited statistics\n\nPlayed\n0\nWins\n0\nWin %\n0\nStreak\n0\nBest streak\n0\nGuess distribution\n1\n0\n2\n0\n3\n0\n4\n0\n5\n0\n6\n0\n\nCompleted wins build your streak. Abandoned puzzles do not count as losses."
+    },
+    {
+      "scenario": "invalid word announcement after live-region update",
+      "attempt": "Attempt 2 of 6",
+      "message": "That word is not in the dictionary.",
+      "announcement": "That word is not in the dictionary."
+    }
+  ]
+}

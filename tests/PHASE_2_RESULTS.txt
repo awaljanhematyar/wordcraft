@@ -1,0 +1,92 @@
+✔ hand-checked scoring craft against craft (2.833546ms)
+✔ hand-checked scoring nymph against eerie (0.239905ms)
+✔ hand-checked scoring abcde against eabcd (0.107361ms)
+✔ hand-checked scoring allee against apple (0.069244ms)
+✔ hand-checked scoring eerie against serve (0.07373ms)
+✔ hand-checked scoring sassy against sissy (0.070636ms)
+✔ hand-checked scoring aaaaa against cacao (0.144197ms)
+✔ hand-checked scoring cacao against aaaaa (1.932145ms)
+✔ hand-checked scoring belle against level (0.124106ms)
+✔ hand-checked scoring array against rarer (0.097946ms)
+✔ hand-checked scoring teeth against ether (0.062754ms)
+✔ hand-checked scoring eagle against allee (0.05334ms)
+✔ hand-checked scoring apple against allee (0.064546ms)
+✔ hand-checked scoring babbb against abbey (0.08638ms)
+✔ scoring normalizes ASCII case and outer whitespace (0.088964ms)
+✔ scoring rejects malformed input null (0.431266ms)
+✔ scoring rejects malformed input undefined (0.061843ms)
+✔ scoring rejects malformed input 12345 (0.044227ms)
+✔ scoring rejects malformed input [object Object] (0.042403ms)
+✔ scoring rejects malformed input  (0.065328ms)
+✔ scoring rejects malformed input four (0.045308ms)
+✔ scoring rejects malformed input longer (0.041111ms)
+✔ scoring rejects malformed input caféx (0.055393ms)
+✔ scoring rejects malformed input a-bcd (0.079389ms)
+✔ scoring rejects malformed input 12345 (0.086299ms)
+✔ scoring rejects malformed input ab cd (0.051957ms)
+✔ scoring rejects malformed input Kraft (0.08005ms)
+✔ exhaustive scoring invariants for all 59,049 pairs over a three-letter alphabet (214.916001ms)
+✔ validation distinguishes format and dictionary errors (0.383835ms)
+✔ new game has five letters, six attempts, immutable empty history (0.210175ms)
+✔ invalid answers and non-boolean hard mode are rejected (0.167781ms)
+✔ invalid guesses leave the same state and consume no attempt (0.178307ms)
+✔ accepted guess creates a new immutable history without mutating old state (0.197666ms)
+✔ winning on attempt 1 terminates the game (0.104046ms)
+✔ winning on attempt 2 terminates the game (0.133941ms)
+✔ winning on attempt 3 terminates the game (0.131407ms)
+✔ winning on attempt 4 terminates the game (0.051637ms)
+✔ winning on attempt 5 terminates the game (0.042644ms)
+✔ winning on attempt 6 terminates the game (0.20035ms)
+✔ six incorrect accepted guesses lose, seventh guess is blocked (0.11396ms)
+✔ hard-mode violation returns a message and does not consume an attempt (0.605908ms)
+✔ normal mode does not enforce revealed hints (0.087231ms)
+✔ keyboard keeps the best clue for repeated letters across and within guesses (0.194421ms)
+✔ empty history permits any well-formed word (2.241648ms)
+✔ green clues fix each known position (0.531617ms)
+✔ yellow clues must be used and moved (0.233931ms)
+✔ excess gray duplicates infer exact positive count and gray positions are excluded (0.26679ms)
+✔ two yellow copies set minimum two, rather than minimum one (0.195933ms)
+✔ mixed green and yellow counts combine into minimum two without a false upper bound (0.147901ms)
+✔ gray-only letters have maximum zero (0.274181ms)
+✔ all previous rows contribute constraints, not just the most recent one (0.243986ms)
+✔ constraints tighten minimum and maximum across rows (0.14018ms)
+✔ constraint output and input history remain immutable (0.51422ms)
+✔ malformed history rejected: null (0.102754ms)
+✔ malformed history rejected: {} (0.085558ms)
+✔ malformed history rejected: [null] (0.147771ms)
+✔ malformed history rejected: [{"word":"abcd","feedback":["absent","absent","absent","absent","absent"]}] (0.09989ms)
+✔ malformed history rejected: [{"word":"abcde\n","feedback":["absent","absent","absent","absent","absent"]}] (0.089144ms)
+✔ malformed history rejected: [{"word":"abcde","feedback":["correct"]}] (0.090545ms)
+✔ malformed history rejected: [{"word":"abcde","feedback":["blue","blue","blue","blue","blue"]}] (0.070786ms)
+✔ malformed history rejected: [{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]},{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]},{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]},{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]},{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]},{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]},{"word":"abcde","feedback":["absent","absent","absent","absent","absent"]}] (0.070906ms)
+✔ conflicting histories fail explicitly (0.337265ms)
+✔ malformed candidates return a clear format violation (0.101962ms)
+✔ all 32,768 binary candidate/guess/answer triples preserve exactly the revealed feedback (222.934235ms)
+✔ real answer always obeys multiple accumulated clue rows, including duplicate letters (0.617055ms)
+✔ dictionary and curated answers are separate, nonempty, frozen lists (1.169703ms)
+✔ every word is five lowercase ASCII letters with no duplicates and sorted ordering (4.79858ms)
+✔ every curated answer is an allowed guess (0.781421ms)
+✔ normalization handles case and padding without inventing ASCII words from Unicode (0.195133ms)
+✔ membership lookup is case insensitive and includes broad guesses outside the answer subset (0.196875ms)
+✔ derived lists match pinned counts, versions, and checksums (1.22821ms)
+✔ unmodified upstream MIT notice is bundled with the data (0.338477ms)
+ℹ tests 72
+ℹ suites 0
+ℹ pass 72
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 356.356971
+ℹ start of coverage report
+ℹ --------------------------------------------------------------
+ℹ file          | line % | branch % | funcs % | uncovered lines
+ℹ --------------------------------------------------------------
+ℹ js            |        |          |         | 
+ℹ  game.js      | 100.00 |    97.83 |  100.00 | 
+ℹ  hard-mode.js | 100.00 |   100.00 |  100.00 | 
+ℹ  words.js     | 100.00 |   100.00 |  100.00 | 
+ℹ --------------------------------------------------------------
+ℹ all files     | 100.00 |    99.19 |  100.00 | 
+ℹ --------------------------------------------------------------
+ℹ end of coverage report

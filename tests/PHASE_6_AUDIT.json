@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-23",
+  "unchangedApprovedTestFiles": 15,
+  "unchangedApprovedTestCount": 258,
+  "productionHtmlCssJavaScriptUnchanged": true,
+  "syntaxCheckedJavaScriptFiles": 35,
+  "staticConfig": {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "framework": null,
+    "buildCommand": "",
+    "installCommand": "",
+    "outputDirectory": ".",
+    "headers": [
+      {
+        "source": "/(.*)",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "DENY"
+          },
+          {
+            "key": "Content-Security-Policy",
+            "value": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'"
+          },
+          {
+            "key": "Permissions-Policy",
+            "value": "camera=(), microphone=(), geolocation=()"
+          }
+        ]
+      }
+    ]
+  },
+  "staticConfigCheck": "passed source review, not deployed header verification",
+  "runtimeDependencies": 0,
+  "allRelativeProductionImportsExist": true,
+  "seo": "title, description, viewport, lang, basic Open Graph and module entry present. Origin-dependent canonical/og:url/social image deferred.",
+  "credentialPatternScan": "No common private-key/AWS/GitHub signatures in production JS/HTML. Scoped pattern scan, not a full security audit."
+}

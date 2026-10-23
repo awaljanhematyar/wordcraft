@@ -1,0 +1,3462 @@
+{
+  "browser": "Chrome/155.0.0.0 (UA reduced)",
+  "method": "Same-origin CSS viewport frames; text-only computed font sizes doubled; landscape frame height 360px. Browser zoom separate.",
+  "runs": [
+    {
+      "scenario": "Normal",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Landscape",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 360,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 360,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 360,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 360,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 254,
+            "y": 372.265625,
+            "width": 245,
+            "height": 294
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 818.265625,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 360,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 382,
+            "y": 381.1875,
+            "width": 245,
+            "height": 294
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 827.1875,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 360,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 590,
+            "y": 381.1875,
+            "width": 245,
+            "height": 294
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 827.1875,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Long message",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 973.453125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 960.859375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 982.078125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 985.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 994.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 994.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Settings",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 19,
+            "y": 296.34375,
+            "width": 267,
+            "height": 507.3125,
+            "scrollWidth": 265,
+            "clientWidth": 265
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 19,
+            "y": 323.828125,
+            "width": 322,
+            "height": 452.34375,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 19,
+            "y": 317.03125,
+            "width": 337,
+            "height": 465.9375,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 146.5,
+            "y": 326.375,
+            "width": 460,
+            "height": 447.25,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 274.5,
+            "y": 326.375,
+            "width": 460,
+            "height": 447.25,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 482.5,
+            "y": 326.375,
+            "width": 460,
+            "height": 447.25,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Statistics",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 19,
+            "y": 276.609375,
+            "width": 267,
+            "height": 546.78125,
+            "scrollWidth": 265,
+            "clientWidth": 265
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 19,
+            "y": 291.90625,
+            "width": 322,
+            "height": 516.1875,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 19,
+            "y": 283.109375,
+            "width": 337,
+            "height": 533.78125,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 146.5,
+            "y": 283.109375,
+            "width": 460,
+            "height": 533.78125,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 274.5,
+            "y": 283.109375,
+            "width": 460,
+            "height": 533.78125,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 482.5,
+            "y": 283.109375,
+            "width": 460,
+            "height": 533.78125,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Instructions",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 19,
+            "y": 134.71875,
+            "width": 267,
+            "height": 830.5625,
+            "scrollWidth": 265,
+            "clientWidth": 265
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 19,
+            "y": 213.75,
+            "width": 322,
+            "height": 672.5,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 19,
+            "y": 218,
+            "width": 337,
+            "height": 664,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 146.5,
+            "y": 229.046875,
+            "width": 460,
+            "height": 641.90625,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 274.5,
+            "y": 229.046875,
+            "width": 460,
+            "height": 641.90625,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 482.5,
+            "y": 229.046875,
+            "width": 460,
+            "height": 641.90625,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Normal",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Landscape",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 360,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 360,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 360,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 360,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 254,
+            "y": 372.265625,
+            "width": 245,
+            "height": 294
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 818.265625,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 360,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 382,
+            "y": 381.1875,
+            "width": 245,
+            "height": 294
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 827.1875,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 360,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 590,
+            "y": 381.1875,
+            "width": 245,
+            "height": 294
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 827.1875,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Long message",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 973.453125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 960.859375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 982.078125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 985.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 994.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 994.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": null,
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Settings",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 19,
+            "y": 296.34375,
+            "width": 267,
+            "height": 507.3125,
+            "scrollWidth": 265,
+            "clientWidth": 265
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 19,
+            "y": 323.828125,
+            "width": 322,
+            "height": 452.34375,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 19,
+            "y": 317.03125,
+            "width": 337,
+            "height": 465.9375,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 146.5,
+            "y": 326.375,
+            "width": 460,
+            "height": 447.25,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 274.5,
+            "y": 326.375,
+            "width": 460,
+            "height": 447.25,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 482.5,
+            "y": 326.375,
+            "width": 460,
+            "height": 447.25,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Statistics",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 19,
+            "y": 276.609375,
+            "width": 267,
+            "height": 546.78125,
+            "scrollWidth": 265,
+            "clientWidth": 265
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 19,
+            "y": 291.90625,
+            "width": 322,
+            "height": 516.1875,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 19,
+            "y": 283.109375,
+            "width": 337,
+            "height": 533.78125,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 146.5,
+            "y": 283.109375,
+            "width": 460,
+            "height": 533.78125,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 274.5,
+            "y": 283.109375,
+            "width": 460,
+            "height": 533.78125,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 482.5,
+            "y": 283.109375,
+            "width": 460,
+            "height": 533.78125,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "Instructions",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 383.765625,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 824.953125,
+            "width": 285,
+            "height": 150
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 19,
+            "y": 134.71875,
+            "width": 267,
+            "height": 830.5625,
+            "scrollWidth": 265,
+            "clientWidth": 265
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 350.171875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 845.359375,
+            "width": 340,
+            "height": 150
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 19,
+            "y": 213.75,
+            "width": 322,
+            "height": 672.5,
+            "scrollWidth": 320,
+            "clientWidth": 320
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 367.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 866.578125,
+            "width": 347,
+            "height": 156
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 19,
+            "y": 218,
+            "width": 337,
+            "height": 664,
+            "scrollWidth": 335,
+            "clientWidth": 335
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 387.265625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 886.453125,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 146.5,
+            "y": 229.046875,
+            "width": 460,
+            "height": 641.90625,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 274.5,
+            "y": 229.046875,
+            "width": 460,
+            "height": 641.90625,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 396.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 895.375,
+            "width": 500,
+            "height": 156
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 482.5,
+            "y": 229.046875,
+            "width": 460,
+            "height": 641.90625,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text Settings",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 235,
+            "height": 1064,
+            "scrollWidth": 218,
+            "clientWidth": 218
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 290,
+            "height": 1064,
+            "scrollWidth": 273,
+            "clientWidth": 273
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 305,
+            "height": 1064,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 146.5,
+            "y": 109.953125,
+            "width": 460,
+            "height": 880.09375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 274.5,
+            "y": 109.953125,
+            "width": 460,
+            "height": 880.09375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 482.5,
+            "y": 109.953125,
+            "width": 460,
+            "height": 880.09375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text Statistics",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 235,
+            "height": 1064,
+            "scrollWidth": 218,
+            "clientWidth": 218
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 290,
+            "height": 1064,
+            "scrollWidth": 273,
+            "clientWidth": 273
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 305,
+            "height": 1064,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 146.5,
+            "y": 30.53125,
+            "width": 460,
+            "height": 1038.9375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 274.5,
+            "y": 30.53125,
+            "width": 460,
+            "height": 1038.9375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 482.5,
+            "y": 30.53125,
+            "width": 460,
+            "height": 1038.9375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text Instructions",
+      "theme": "dark",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 235,
+            "height": 1064,
+            "scrollWidth": 218,
+            "clientWidth": 218
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 290,
+            "height": 1064,
+            "scrollWidth": 273,
+            "clientWidth": 273
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 305,
+            "height": 1064,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 146.5,
+            "y": 18,
+            "width": 460,
+            "height": 1064,
+            "scrollWidth": 443,
+            "clientWidth": 443
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 274.5,
+            "y": 18,
+            "width": 460,
+            "height": 1064,
+            "scrollWidth": 443,
+            "clientWidth": 443
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 482.5,
+            "y": 18,
+            "width": 460,
+            "height": 1064,
+            "scrollWidth": 443,
+            "clientWidth": 443
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text Settings",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 235,
+            "height": 1064,
+            "scrollWidth": 218,
+            "clientWidth": 218
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 290,
+            "height": 1064,
+            "scrollWidth": 273,
+            "clientWidth": 273
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 305,
+            "height": 1064,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 146.5,
+            "y": 109.953125,
+            "width": 460,
+            "height": 880.09375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 274.5,
+            "y": 109.953125,
+            "width": 460,
+            "height": 880.09375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "settings-dialog",
+            "x": 482.5,
+            "y": 109.953125,
+            "width": 460,
+            "height": 880.09375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text Statistics",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 235,
+            "height": 1064,
+            "scrollWidth": 218,
+            "clientWidth": 218
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 290,
+            "height": 1064,
+            "scrollWidth": 273,
+            "clientWidth": 273
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 305,
+            "height": 1064,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 146.5,
+            "y": 30.53125,
+            "width": 460,
+            "height": 1038.9375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 274.5,
+            "y": 30.53125,
+            "width": 460,
+            "height": 1038.9375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "stats-dialog",
+            "x": 482.5,
+            "y": 30.53125,
+            "width": 460,
+            "height": 1038.9375,
+            "scrollWidth": 458,
+            "clientWidth": 458
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    },
+    {
+      "scenario": "200% text Instructions",
+      "theme": "light",
+      "results": [
+        {
+          "width": 320,
+          "height": 1100,
+          "scrollWidth": 305,
+          "overflow": false,
+          "board": {
+            "x": 32,
+            "y": 927.125,
+            "width": 241,
+            "height": 289.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1415.3125,
+            "width": 285,
+            "height": 158
+          },
+          "keyMinimumWidth": 24.890625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 235,
+            "height": 1064,
+            "scrollWidth": 218,
+            "clientWidth": 218
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 375,
+          "height": 1100,
+          "scrollWidth": 360,
+          "overflow": false,
+          "board": {
+            "x": 37,
+            "y": 732.75,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 10,
+            "y": 1274.9375,
+            "width": 340,
+            "height": 158
+          },
+          "keyMinimumWidth": 30.390625,
+          "keyMinimumHeight": 46,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 290,
+            "height": 1064,
+            "scrollWidth": 273,
+            "clientWidth": 273
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 390,
+          "height": 1100,
+          "scrollWidth": 375,
+          "overflow": false,
+          "board": {
+            "x": 44.5,
+            "y": 781.5625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 14,
+            "y": 1336.75,
+            "width": 347,
+            "height": 170
+          },
+          "keyMinimumWidth": 30.1875,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 35,
+            "y": 18,
+            "width": 305,
+            "height": 1064,
+            "scrollWidth": 288,
+            "clientWidth": 288
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 768,
+          "height": 1100,
+          "scrollWidth": 753,
+          "overflow": false,
+          "board": {
+            "x": 233.5,
+            "y": 715.46875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 126.5,
+            "y": 1227.65625,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 146.5,
+            "y": 18,
+            "width": 460,
+            "height": 1064,
+            "scrollWidth": 443,
+            "clientWidth": 443
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1024,
+          "height": 1100,
+          "scrollWidth": 1009,
+          "overflow": false,
+          "board": {
+            "x": 361.5,
+            "y": 669.1875,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 254.5,
+            "y": 1181.375,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 274.5,
+            "y": 18,
+            "width": 460,
+            "height": 1064,
+            "scrollWidth": 443,
+            "clientWidth": 443
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        },
+        {
+          "width": 1440,
+          "height": 1100,
+          "scrollWidth": 1425,
+          "overflow": false,
+          "board": {
+            "x": 569.5,
+            "y": 568.390625,
+            "width": 286,
+            "height": 343.1875
+          },
+          "keyboard": {
+            "x": 462.5,
+            "y": 1080.578125,
+            "width": 500,
+            "height": 170
+          },
+          "keyMinimumWidth": 45,
+          "keyMinimumHeight": 48,
+          "dialog": {
+            "id": "help-dialog",
+            "x": 482.5,
+            "y": 18,
+            "width": 460,
+            "height": 1064,
+            "scrollWidth": 443,
+            "clientWidth": 443
+          },
+          "unnamedControls": [],
+          "liveRegion": "polite"
+        }
+      ]
+    }
+  ]
+}

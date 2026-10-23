@@ -1,0 +1,26 @@
+{
+  "environment": "Internal static HTTP preview, not Vercel or HTTPS. Vercel headers are source-reviewed only.",
+  "records": [
+    {
+      "path": "../index.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "csp": null,
+      "nosniff": null
+    },
+    {
+      "path": "../js/main.js",
+      "status": 200,
+      "contentType": "text/javascript; charset=utf-8",
+      "csp": null,
+      "nosniff": null
+    },
+    {
+      "path": "../css/style.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "csp": null,
+      "nosniff": null
+    }
+  ]
+}
