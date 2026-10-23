@@ -1,0 +1,13 @@
+{
+  "name": "wordcraft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Buildless daily and unlimited word puzzle with Hard Mode, local persistence and accessible interactions.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

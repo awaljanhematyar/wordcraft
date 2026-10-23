@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>WordCraft | Daily Word Puzzle</title>
+  <meta name="description" content="Five letters. Six chances. Play WordCraft, an independent daily word puzzle with unlimited practice and Hard Mode. No account needed.">
+  <meta property="og:title" content="WordCraft | Daily Word Puzzle">
+  <meta property="og:description" content="Make every letter count. A daily challenge and unlimited word puzzles.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta name="theme-color" content="#101720">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="modulepreload" href="js/words.js">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to game</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="WordCraft home"><span class="brand-icon" aria-hidden="true">W</span>WordCraft<span class="brand-dot" aria-hidden="true">.</span></a>
+    <span class="project-label">THE DAILY WORD RITUAL</span>
+    <nav class="toolbar" aria-label="Game tools">
+      <button type="button" class="icon-button" data-open="help" aria-label="How to play"><span aria-hidden="true">?</span></button>
+      <button type="button" class="icon-button" data-open="stats" aria-label="Statistics"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 20V12M12 20V4M19 20V8"/></svg></button>
+      <button type="button" class="icon-button" data-open="settings" aria-label="Settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="16" cy="17" r="3"/></svg></button>
+    </nav>
+  </header>
+  <main id="main" tabindex="-1">
+    <section class="intro" aria-labelledby="game-title">
+      <p class="eyebrow"><span aria-hidden="true"></span> A LITTLE CHALLENGE. EVERY DAY.</p>
+      <h1 id="game-title">Make every letter count.</h1>
+      <p class="subtitle">Five letters. Six chances. One satisfying discovery.</p>
+    </section>
+    <div class="mode-switch" role="group" aria-label="Game mode">
+      <button type="button" data-mode="daily" aria-pressed="true">Daily <span aria-hidden="true">↗</span></button>
+      <button type="button" data-mode="unlimited" aria-pressed="false">Unlimited <span aria-hidden="true">∞</span></button>
+    </div>
+    <section id="game-surface" class="game-panel" aria-labelledby="board-title" tabindex="-1">
+      <div class="panel-heading"><h2 id="board-title">Daily challenge</h2><span id="puzzle-label" class="mini-label"></span></div>
+      <div class="game-meta"><span id="attempt-label">Attempt 1 of 6</span><span id="hard-label">Classic rules</span></div>
+      <div id="board" class="board" role="group" aria-label="Six rows of five letters" aria-busy="false"></div>
+      <p id="game-message" class="game-message">Type a five-letter word to begin.</p>
+      <div class="game-actions">
+        <button type="button" id="new-game" class="button secondary" hidden>New game <span aria-hidden="true">↻</span></button>
+        <button type="button" id="results-button" class="button secondary" hidden>View results</button>
+        <button type="button" id="share-button" class="button primary" hidden>Share result <span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+    <aside class="clue-guide" aria-label="Letter feedback guide">
+      <span><i class="legend correct" aria-hidden="true"></i>Right place</span>
+      <span><i class="legend present" aria-hidden="true"></i>Wrong place</span>
+      <span><i class="legend absent" aria-hidden="true"></i>Not in word</span>
+    </aside>
+    <section id="keyboard" class="keyboard" aria-label="On-screen keyboard"></section>
+    <p class="keyboard-hint">Use your keyboard or tap the letters. <kbd>Enter</kbd> to submit.</p>
+    <p id="save-status" class="save-status">Progress saved on this browser.</p>
+    <p id="announcements" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+    <noscript><p class="game-message">Enable JavaScript to play WordCraft.</p></noscript>
+  </main>
+  <footer><span>Crafted for curious minds.</span><span>Independent word game · No account needed</span></footer>
+
+  <dialog id="help-dialog" aria-labelledby="help-title">
+    <div class="dialog-heading"><span class="eyebrow">YOUR NEXT GOOD GUESS</span><button type="button" class="icon-button" data-close aria-label="Close instructions">×</button></div>
+    <h2 id="help-title">A little word wisdom.</h2>
+    <p>Find the five-letter word in six guesses. Every guess must be a word in our dictionary.</p>
+    <div class="example-word" aria-label="Example: C is in the right place"><span class="correct">C</span><span>R</span><span>A</span><span>F</span><span>T</span></div>
+    <p><strong>Mint green:</strong> the letter is in the right place.</p>
+    <div class="example-word" aria-label="Example: A is in the word, but in a different place"><span>S</span><span class="present">A</span><span>L</span><span>T</span><span>Y</span></div>
+    <p><strong>Amber:</strong> the letter belongs elsewhere. Gray means that copy is not in the word.</p>
+    <p>Repeated letters receive only as many green or amber clues as the answer contains.</p>
+    <p><strong>Daily:</strong> one shared puzzle per UTC day. <strong>Unlimited:</strong> a fresh puzzle whenever you want.</p>
+    <p><strong>Hard Mode:</strong> reuse every revealed clue, including known letter counts. Enable it before your first accepted guess. Disabling it removes that puzzle's Hard Mode eligibility.</p>
+    <p class="dialog-note">Progress stays in this browser. This independent game has no accounts or multiplayer.</p>
+  </dialog>
+
+  <dialog id="settings-dialog" aria-labelledby="settings-title">
+    <div class="dialog-heading"><span class="eyebrow">MAKE IT YOURS</span><button type="button" class="icon-button" data-close aria-label="Close settings">×</button></div>
+    <h2 id="settings-title">Your playing style.</h2>
+    <div class="setting-row"><div><label for="theme-setting">Appearance</label><p>A little light, or a little midnight.</p></div><select id="theme-setting" data-setting="theme"><option value="dark">Dark</option><option value="light">Light</option></select></div>
+    <div class="setting-row"><div><label for="sound-setting">Sound effects</label><p>Soft sounds for guesses and discoveries.</p></div><input id="sound-setting" data-setting="sound" type="checkbox" role="switch"></div>
+    <div class="setting-row"><div><label for="hard-setting">Hard Mode</label><p id="hard-description">Use every revealed clue.</p></div><input id="hard-setting" data-setting="hardMode" type="checkbox" role="switch" aria-describedby="hard-description"></div>
+    <p id="hard-eligibility" class="dialog-note"></p>
+    <p data-dialog-status role="status" aria-live="polite"></p>
+  </dialog>
+
+  <dialog id="stats-dialog" aria-labelledby="stats-title">
+    <div class="dialog-heading"><span class="eyebrow">SMALL WINS ADD UP</span><button type="button" class="icon-button" data-close aria-label="Close statistics">×</button></div>
+    <h2 id="stats-title">Your word story.</h2>
+    <div class="mode-switch compact" role="group" aria-label="Statistics mode"><button type="button" data-stat-mode="daily" aria-pressed="true">Daily</button><button type="button" data-stat-mode="unlimited" aria-pressed="false">Unlimited</button></div>
+    <p id="stats-mode-label" class="dialog-note">Daily statistics</p>
+    <dl class="stats-grid"><div><dt>Played</dt><dd data-stat="gamesPlayed">0</dd></div><div><dt>Wins</dt><dd data-stat="gamesWon">0</dd></div><div><dt>Win %</dt><dd data-stat="winPercentage">0</dd></div><div><dt>Streak</dt><dd data-stat="currentStreak">0</dd></div><div><dt>Best streak</dt><dd data-stat="maximumStreak">0</dd></div></dl>
+    <h3>Guess distribution</h3><ol id="distribution" class="distribution" aria-label="Winning guesses by attempt"></ol>
+    <p id="stats-note" class="dialog-note">Completed games only. Saved in this browser.</p>
+  </dialog>
+
+  <dialog id="results-dialog" aria-labelledby="results-title">
+    <div class="dialog-heading"><span class="eyebrow">EVERY GUESS COUNTS</span><button type="button" class="icon-button" data-close aria-label="Close results">×</button></div>
+    <div id="result-emblem" class="result-emblem" aria-hidden="true">✓</div>
+    <h2 id="results-title">Beautifully solved.</h2><p id="result-summary"></p>
+    <pre id="result-grid" class="result-grid" aria-label="Your result grid"></pre>
+    <p id="result-caption" class="dialog-note"></p>
+    <button type="button" id="copy-result" class="button primary wide">Copy result <span aria-hidden="true">↗</span></button>
+    <div id="manual-copy" hidden><label for="share-text">Result to copy</label><textarea id="share-text" readonly rows="9" spellcheck="false"></textarea><p class="dialog-note">Select and copy this text using your browser or keyboard.</p></div>
+    <p data-dialog-status role="status" aria-live="polite"></p>
+  </dialog>
+</body>
+</html>

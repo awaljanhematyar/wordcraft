@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+Thumbs.db
+.vercel/
+.env
+.env.*
+coverage/
+*.log
+.openai/
+__pycache__/
+*.pyc
+*.zip
+*.bundle

@@ -1,0 +1,16 @@
+.git/
+.openai/
+.vercel/
+.env
+.env.*
+node_modules/
+coverage/
+__pycache__/
+*.log
+tests/
+screenshots/
+PHASE_*_REPORT.md
+IMPLEMENTATION_PLAN.md
+PORTFOLIO_CASE_STUDY.md
+HANDOFF.md
+DEPLOYMENT.md
