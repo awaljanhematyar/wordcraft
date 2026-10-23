@@ -2,7 +2,7 @@
 
 An independent five-letter word puzzle built with HTML5, CSS3 and vanilla JavaScript. Six attempts, shared UTC daily puzzles and unlimited practice, with original branding and no frontend build process.
 
-All six development phases are complete. Publication has been authorized. Source repository: https://github.com/awaljanhematyar/wordcraft. Production deployment and portfolio verification are in progress. See [final report](PHASE_6_REPORT.md), [handoff guide](HANDOFF.md) and [portfolio case study](PORTFOLIO_CASE_STUDY.md).
+All six development phases are complete. [Play WordCraft](https://wordcraft-mu-one.vercel.app/) or browse the [source repository](https://github.com/awaljanhematyar/wordcraft). The game is published as a static website on Vercel. See [final report](PHASE_6_REPORT.md), [handoff guide](HANDOFF.md) and [portfolio case study](PORTFOLIO_CASE_STUDY.md).
 
 ## Features
 
