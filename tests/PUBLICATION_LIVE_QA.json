@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-23",
+  "environment": "Authenticated Chrome cloud browser. Exact engine version not re-read in publication run. Phase 5 historical record: Chrome/155.0.0.0 UA reduced.",
+  "urls": {
+    "github": "https://github.com/awaljanhematyar/wordcraft",
+    "game": "https://wordcraft-mu-one.vercel.app/",
+    "case_study": "https://hematyar-professional-portfolio.vercel.app/projects/wordcraft"
+  },
+  "production_checks": {
+    "daily_utc_identity": "2026-10-23",
+    "physical_keyboard_and_enter": true,
+    "arise_scoring": "green green gray gray yellow",
+    "hard_mode_rejection": "Keep A in position 1.",
+    "daily_completed": "2 of 6, Hard Mode",
+    "refresh_progress_and_preferences": true,
+    "completion_deduplication": "Played 1, Wins 1 after completed refresh",
+    "unlimited_keyboard_guess": true,
+    "new_game": "Puzzle 1 to Puzzle 2, empty board",
+    "abandoned_unlimited_statistics": "Played 0, Wins 0",
+    "invalid_word": "That word is not in the dictionary.",
+    "clipboard": "UI reported Result copied. Your answer stays private. Clipboard readback unavailable in browser API.",
+    "dialogs": "Escape closed settings, focus restored to Settings",
+    "sound": "Toggle persisted. Audible output not verified.",
+    "screen_reader": "polite live region and named cells observed. Spoken output unverified.",
+    "app_console_errors_observed": 0
+  },
+  "production_geometry": {
+    "browser_width": 1363,
+    "document_scroll_width": 1348,
+    "horizontal_overflow": false,
+    "tiles": 30,
+    "keyboard_keys": 28
+  },
+  "portfolio": {
+    "card_navigation": true,
+    "demo_link": true,
+    "source_link": true,
+    "gallery_images_loaded": [
+      {
+        "src": "/projects/wordcraft-desktop.jpg",
+        "natural_width": 1008,
+        "natural_height": 840
+      },
+      {
+        "src": "/projects/wordcraft-mobile.jpg",
+        "natural_width": 1363,
+        "natural_height": 936
+      }
+    ],
+    "browser_width": 1363,
+    "document_scroll_width": 1348,
+    "horizontal_overflow": false,
+    "app_console_errors_observed": 0
+  },
+  "responsive_scope": "Retained Phase 5 source-layout matrix: 120 cases across 320,375,390,768,1024,1440 and both themes. Portfolio prior local checks at 390/1440. Production CSS/JS matched reviewed source. Fresh narrow production viewports and physical-device tests were not executed. Local preview recheck could not connect in this session.",
+  "unverified": [
+    "Firefox",
+    "WebKit",
+    "physical devices",
+    "spoken screen reader output",
+    "OS reduced motion",
+    "actual 200% browser zoom",
+    "audible sound"
+  ],
+  "deployments": {
+    "game": {
+      "status": "Ready",
+      "commit": "b2b5f8c"
+    },
+    "portfolio": {
+      "status": "Ready",
+      "commit": "bf5dab9"
+    }
+  }
+}
