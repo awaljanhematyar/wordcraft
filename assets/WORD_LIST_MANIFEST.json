@@ -1,0 +1,16 @@
+{
+  "source_repository": "https://github.com/wordnik/wordlist",
+  "revision": "46e6215d0f90356afe9c8ba4be347e7e98cb425c",
+  "source_file": "wordlist-20210729.txt",
+  "retrieved_on": "2026-10-23",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2020 Wordnik",
+  "source_sha256": "bfd1b4eb4ade1ba81e84c7e24248b9a1aecec9d9baa427453b367a83e30e0451",
+  "license_sha256": "a568f0ac4c7ad5248ff748387d41e39519811b4a3e07d7438c9d1465dd4c9339",
+  "source_entries": 198422,
+  "allowed_count": 11846,
+  "answers_count": 821,
+  "allowed_sha256": "2f3df71fb745ec50271848d018ed8d79975a73559a27f3e5852773ad6ca593a8",
+  "answers_sha256": "2295b5870b882fa0cb0f3bc162246c18aebceb97398994fd05922513de16c617",
+  "dictionary_version": "wordnik-20210729-wordcraft-v1"
+}
